@@ -42,13 +42,16 @@ html {
   max-height: 36em;
 }
 
-.banner-text{
+.first {
+  color: #132531;
+}
+
+.second {
+  color: #132531;
   font-family: 'Spartan', sans-serif;
-  color: #CEEDE8;
 }
 
 .banner-content {
-  color: #CEEDE8;
   bottom: 0;
   align-items: flex-start;
   max-width: 45em;
@@ -56,5 +59,31 @@ html {
   position: absolute;
   left: 50%;
   top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.btn {
+  background-color: #132531;
+  color: #CEEDE8;
+  border-color: #132531;
+   border-top-left-radius: 20px;
+   border-bottom-right-radius: 20px;
+
+}
+
+.explain {
+  position: relative;
+  overflow: hidden;
+  max-height: 36em;
+}
+
+.explain-content {
+  bottom: 0;
+  align-items: flex-start;
+  max-width: 45em;
+  width: 100%;
+  position: absolute;
+  left: 50%;
+  top: 35%;
   transform: translate(-50%, -50%);
 }
