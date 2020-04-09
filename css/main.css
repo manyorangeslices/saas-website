@@ -1,0 +1,60 @@
+html {
+  font-family: 'Mansalva', cursive;;
+  background-color: #132531;
+}
+
+.logo {
+  text-decoration: none;
+  color: #CEEDE8;
+}
+
+.nav-text {
+  font-family: 'Spartan', sans-serif;
+}
+
+.current {
+  color: #CEEDE8;
+  text-decoration: none;
+}
+
+.nav{
+  color: #CEEDE8;
+  text-decoration: none;
+}
+
+.banner-words {
+
+}
+
+.banner-text {
+  font-family: 'Spartan', sans-serif
+  position: relative;
+}
+
+.img-flex {
+  display: block;
+  width: 100%;
+}
+
+.banner {
+  position: relative;
+  overflow: hidden;
+  max-height: 36em;
+}
+
+.banner-text{
+  font-family: 'Spartan', sans-serif;
+  color: #CEEDE8;
+}
+
+.banner-content {
+  color: #CEEDE8;
+  bottom: 0;
+  align-items: flex-start;
+  max-width: 45em;
+  width: 100%;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
