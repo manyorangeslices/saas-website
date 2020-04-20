@@ -10,9 +10,15 @@
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <link href="https://fonts.googleapis.com/css2?family=Mansalva&family=Spartan:wght@100;400;700&display=swap" rel="stylesheet">
 </head>
-  <body>
+<body>
 
-    <header role="banner">
+  <ul class="skip-links">
+    <li><a href="#main">Jump to main content</a></li>
+    <li><a href="#nav">Jump to navigation</a></li>
+  </ul>
+
+  <section>
+    <header role="banner" tabindex="0">
       <div class="navigation grid grid-middle pad-t-1-2">
         <div class="unit xs-1 s-1 m-1-4 l-1-4 gutter">
           <h1>
@@ -29,41 +35,45 @@
             </ul>
           </nav>
         </div>
+      </div>
+  </header>
+</section>
 
-        <div class="explain unit xs-0 s-0 m-1 l-1">
-          <img class="img-flex" src="images/bluewall.jpg" alt="">
-          <div class="grid grid-middle explain-content text-center">
+      <div class="explain unit xs-0 s-0 m-1 l-1">
+        <img class="img-flex" src="images/bluewall.jpg" alt="">
+        <div class="grid grid-middle explain-content text-center">
 
-            <form class="push-0" method="POST" action="https://formspree.io/masl0022@algonquincollege.com">
-              <fieldset class="push-0">
-                <legend class="unit zetta push-0 blue">Join Scrap</legend>
-              </fieldset>
-              <div class="grid">
-                <div class="name push unit xs-1 m-1 l-1-2 second island">
-                  <label for="name" class="text-left bold">First name</label>
-                  <input id="name" required>
-                </div>
-                <div class="name push unit xs-1 m-1 l-1-2 second island">
-                  <label for="name" class="text-left bold">Last name</label>
-                  <input id="lastname" required>
-                </div>
-
-                <div class="email push unit xs-1 m-1 l-1-2 second island">
-                  <label for="email" class="text-left bold">Email</label>
-                  <input id="email" type="email" required>
-                </div>
-
-
-                <div class="password push unit xs-1 m-1 l-1-2 second island">
-                  <label for="password" class="text-left bold">Password</label>
-                  <input id="password" type="password" required>
-                </div>
-
-                <div class="">
-                  <button class="btn zetta" type="submit">Sign up</button>
-                </div>
+          <form class="push-0" method="POST" action="https://formspree.io/masl0022@algonquincollege.com">
+            <fieldset class="push-0">
+              <legend class="unit zetta push-0 blue">Join Scrap</legend>
+            </fieldset>
+            <div class="grid">
+              <div class="name push unit xs-1 m-1 l-1-2 second island">
+                <label for="name" class="text-left bold">First name</label>
+                <input id="name" required>
+              </div>
+              <div class="name push unit xs-1 m-1 l-1-2 second island">
+                <label for="name" class="text-left bold">Last name</label>
+                <input id="lastname" required>
               </div>
 
-            </form>
+              <div class="email push unit xs-1 m-1 l-1-2 second island">
+                <label for="email" class="text-left bold">Email</label>
+                <input id="email" type="email" required>
+              </div>
+
+
+              <div class="password push unit xs-1 m-1 l-1-2 second island">
+                <label for="password" class="text-left bold">Password</label>
+                <input id="password" type="password" required>
+              </div>
+
+              <div class="">
+                <button class="btn zetta" type="submit">Sign up</button>
+              </div>
+            </div>
           </div>
-        </section>
+
+          </form>
+        </div>
+      </section>
