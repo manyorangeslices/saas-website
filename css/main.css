@@ -1,5 +1,5 @@
 html {
-  font-family: "Mansalva", cursive;;
+  font-family: Mansalva, cursive;
   background-color: #132531;
 }
 
@@ -9,7 +9,7 @@ html {
 }
 
 .nav-text {
-  font-family: "Spartan", sans-serif;
+  font-family: Spartan, sans-serif;
   color: #ceede8;
   text-decoration: none;
 }
@@ -19,13 +19,13 @@ html {
   text-decoration: none;
 }
 
-.nav{
-  color:  #ceede8;
+.nav {
+  color: #ceede8;
   text-decoration: none;
 }
 
 .banner-text {
-  font-family: "Spartan", sans-serif;
+  font-family: Spartan, sans-serif;
   position: relative;
 }
 
@@ -37,7 +37,7 @@ html {
 
 .second {
   color: #132531;
-  font-family: "Spartan", sans-serif;
+  font-family: Spartan, sans-serif;
 }
 
 .banner-content {
@@ -53,11 +53,10 @@ html {
 
 .btn {
   background-color: #132531;
-  color:  #ceede8;
+  color: #ceede8;
   border-color: #132531;
-   border-top-left-radius: 20px;
-   border-bottom-right-radius: 20px;
-
+  border-top-left-radius: 20px;
+  border-bottom-right-radius: 20px;
 }
 
 .explain {
@@ -91,15 +90,15 @@ tbody td {
 }
 
 .panel {
-  font-family: "Spartan", sans-serif;
+  font-family: Spartan, sans-serif;
 }
 
 .table-wrapper {
-  font-family: "Spartan", sans-serif;
+  font-family: Spartan, sans-serif;
 }
 
 .notebook {
-  opacity: 0.8;
+  opacity: .8;
 }
 
 .summary {
@@ -111,7 +110,7 @@ tr, .titletable, h2, h3, .end, .first, .blue {
 }
 
 .icon-label {
-  font-family: "Spartan", sans-serif;
+  font-family: Spartan, sans-serif;
 }
 
 a:hover {
