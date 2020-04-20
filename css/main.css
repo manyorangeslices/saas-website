@@ -1,39 +1,32 @@
 html {
-  font-family: 'Mansalva', cursive;;
+  font-family: "Mansalva", cursive;;
   background-color: #132531;
 }
 
 .logo {
   text-decoration: none;
-  color: #CEEDE8;
+  color: #ceede8;
 }
 
 .nav-text {
-  font-family: 'Spartan', sans-serif;
+  font-family: "Spartan", sans-serif;
+  color: #ceede8;
+  text-decoration: none;
 }
 
 .current {
-  color: #CEEDE8;
+  color: #ceede8;
   text-decoration: none;
 }
 
 .nav{
-  color: #CEEDE8;
+  color:  #ceede8;
   text-decoration: none;
 }
 
-.banner-words {
-
-}
-
 .banner-text {
-  font-family: 'Spartan', sans-serif
+  font-family: "Spartan", sans-serif;
   position: relative;
-}
-
-.img-flex {
-  display: block;
-  width: 100%;
 }
 
 .banner {
@@ -42,13 +35,9 @@ html {
   max-height: 36em;
 }
 
-.first {
-  color: #132531;
-}
-
 .second {
   color: #132531;
-  font-family: 'Spartan', sans-serif;
+  font-family: "Spartan", sans-serif;
 }
 
 .banner-content {
@@ -64,7 +53,7 @@ html {
 
 .btn {
   background-color: #132531;
-  color: #CEEDE8;
+  color:  #ceede8;
   border-color: #132531;
    border-top-left-radius: 20px;
    border-bottom-right-radius: 20px;
@@ -88,6 +77,43 @@ html {
   transform: translate(-50%, -50%);
 }
 
-.icon-label {
+td,
+th {
+  border: 4px solid transparent;
+}
+
+tbody td {
+  height: 10em;
+}
+
+.panel-nav {
+  background-color: #ceede8;
+}
+
+.panel {
+  font-family: "Spartan", sans-serif;
+}
+
+.table-wrapper {
+  font-family: "Spartan", sans-serif;
+}
+
+.notebook {
+  opacity: 0.8;
+}
+
+.summary {
+  border-right: solid #132531;
+}
+
+tr, .titletable, h2, h3, .end, .first, .blue {
   color: #132531;
+}
+
+.icon-label {
+  font-family: "Spartan", sans-serif;
+}
+
+a:hover {
+  color: #c70039;
 }
