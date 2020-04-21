@@ -8,8 +8,6 @@ html {
   color: #ceede8;
 }
 
-
-
 .nav-text {
   font-family: Spartan, sans-serif;
   color: #ceede8;
@@ -117,4 +115,9 @@ tr, .titletable, h2, h3, .end, .first, .blue {
 
 a:hover {
   color: #c70039;
+}
+
+.btn:hover {
+  color: #c70039;
+  background-color: #ceede8;
 }
